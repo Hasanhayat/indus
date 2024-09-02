@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin: 20px;
+}
+.mc{
+    position: relative;
+}
+    
+
+.first{
+    display: flex;
+    justify-content: space-between;
+}
+.btng{
+    display: flex;
+    gap: 20px;
+
+}
+.navbtn{
+    background-color: red;
+    width: 150px;
+    height: 45px;
+    border: none;
+}
+.icon{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+    color: black;
+}
+nav{
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.521);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: sans-serif;
+    align-items: center;
+}
+.nav1{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* CONTANT */
+
+
+.bea{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 50px 30px ;
+    border: 1px solid rgb(150, 129, 129);
+    position: absolute;
+    top: 700px;
+
+}
+.bea .cont1 {
+    width: 80%;
+}
+.bea .donate{
+    padding: 50px;
+    border-left: 1px solid rgb(114, 98, 98);
+}
+.bea .donate button{
+    padding: 10px;
+    background-color: red;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+}
+.bea .cont1 h1{
+    font-weight: 700;
+}
+
+.sec2{
+    background-color: rgba(128, 128, 128, 0.267);
+    height: 65vh;
+}
